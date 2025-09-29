@@ -99,6 +99,12 @@ npx prisma migrate dev --name init
 npm run dev
 ```
 
+6. Banco de dados
+```bash
+Para rodar corretamente a aplicação deverá ter localmente um banco mysql rodando, no .env você poderá fazer a conexão,
+na raiz do projeto você encontrará a pasta documents com o DDL para criação do banco caso precise.
+```
+
 ---
 
 ## 🔹 Endpoints Backend
